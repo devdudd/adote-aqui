@@ -62,11 +62,15 @@ li:hover {
     font-size: 40px;
     padding: 30px 0px 20px;
 }
+.naoCompre:hover {
+    color: #cfbbb7;
+    transition-duration: 0.40s;
+}
 .naoCompreTxt {
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     color: #ffffff;
-    margin: 0px 500px 0px;
+    width: 40%;
     padding-bottom: 40px;  
 }
 .abaixo {
@@ -91,13 +95,13 @@ li:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .Peludos {
     font-family: 'Varela Round', sans-serif;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px 0px
 }
 .imgbichinho{
